@@ -1,4 +1,4 @@
-package parte02.sectionMethods.ej06StarsignPrintSquare;
+package parte02.sectionMethods.ej07PrintingaRectangle;
 
 public class Main {
     public static void printStars(int number) {
@@ -10,17 +10,17 @@ public class Main {
         System.out.println("");
     }
 
-    public static void printSquare(int number) {
+    public static void printRectangle(int width, int height) {
         int counter = 1;
-        while(counter <= number) {
-            printStars(number);
+        while(counter <= height) {
+            printStars(width);
             counter++;
         }
-
     }
 
+
     public static void main(String[] args) {
-        printSquare(4);
+        printRectangle(17, 3);
     }
 
 
