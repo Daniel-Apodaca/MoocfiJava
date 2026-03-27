@@ -16,7 +16,6 @@ public class Main {
         while(true) {
 
             if (names.isBlank()) {
-
                 break;
             } else {
                 addedNames.add(names);
