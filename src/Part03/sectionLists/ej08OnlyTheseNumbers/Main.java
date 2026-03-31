@@ -11,6 +11,7 @@
 //        match some numbers in the list.
 
 package Part03.sectionLists.ej08OnlyTheseNumbers;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -32,7 +33,7 @@ public class Main {
         System.out.print("To where? ");
         int last = Integer.parseInt(input.nextLine());
 
-        for(int i = first; i <= last; i++) {
+        for (int i = first; i <= last; i++) {
             System.out.println(list.get(i));
         }
 
