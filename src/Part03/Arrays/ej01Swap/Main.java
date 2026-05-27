@@ -19,19 +19,23 @@ public class Main {
         numbers[0] = 1;
         numbers[1] = 3;
         numbers[2] = 5;
+
+
+
+
         numbers[3] = 7;
         numbers[4] = 9;
 
-        for(int nums: numbers) {
-            System.out.println(nums);
-        }
+//        for(int nums: numbers) {
+//            System.out.println(nums);
+//        }
 
         System.out.println("Give two indices to swap:");
         int num = Integer.parseInt(input.nextLine());
         int num2 = Integer.parseInt(input.nextLine());
 
-        int helper = numbers[num];
-        numbers[num] = numbers[num2];
+        int helper = numbers[num]; // SELECCIONA INDICE 2
+        numbers[num] = numbers[num2]; //
         numbers[num2] = helper;
 
         for(int nums: numbers) {
