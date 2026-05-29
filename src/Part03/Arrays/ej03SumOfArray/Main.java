@@ -3,7 +3,7 @@
 //Complete the method so that it computes and returns the sum of the numbers in the array it
 //receives as parameter.
 
-package Part03.Arrays.SumOfArray;
+package Part03.Arrays.ej03SumOfArray;
 
 public class Main {
     public static void main(String[] args) {
