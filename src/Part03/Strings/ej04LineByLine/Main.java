@@ -3,7 +3,7 @@
 //        For each non-empty input it splits the string input by whitespaces
 //        and prints each part of the string on a new line.
 
-package Part03.Strings.LineByLine;
+package Part03.Strings.ej04LineByLine;
 import java.util.Scanner;
 
 public class Main {
